@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* SECTION LEFT */
+#left {
+    padding: 5rem 17rem 12rem 15rem;
+    height: 100%;
+    width: 50%;
+    background: url("Media/bg-pattern-desktop.svg") 0 0 no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+}
+
+header img {
+    width: 47%;
+    height: 100%;
+}
+
+main {
+    margin: 7rem 0;
+}
+
+main h1 {
+    color: hsl(0, 6%, 24%);
+    font-size: 8rem;
+    line-height: 7rem;
+}
+
+main h1 span {
+    color: hsl(0, 36%, 70%);
+    font-weight: 200;
+}
+
+main p {
+    margin: 2.5rem 0 3.5rem;
+    font-size: 1.7rem;
+    color: hsl(0, 36%, 70%);
+}
+
+#email {
+    padding: 1.5rem;
+    border: 1px solid hsl(0, 1%, 73%);
+    border-radius: 3rem;
+    width: 100%;
+}
+
+#email::placeholder {
+    color: hsl(0, 36%, 70%);
+}
+
+/* SECTION RIGHT */
+#right {
+    height: 100vh;
+    width: 45%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
